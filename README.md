@@ -12,8 +12,8 @@
 1. Clona este repositorio:
 
     ```sh
-    git clone <URL_DEL_REPOSITORIO>
-    cd <NOMBRE_DEL_REPOSITORIO>
+    git clone https://github.com/miguelalejandroff/evaluacion-cs.git
+    cd evaluacion-cs
     ```
 
 2. Instala `tabulate`:

@@ -21,8 +21,13 @@
     ```sh
     pip install -r requirements.txt
     ```
+3. Inicializa la base de datos:
 
-3. Ejecuta la aplicación:
+    ```sh
+    python initialize_db.py
+    ```
+
+4. Ejecuta la aplicación:
     ```sh
     python main.py
     ```

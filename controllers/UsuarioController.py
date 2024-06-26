@@ -22,6 +22,7 @@ class UsuarioController:
         )
         UsuarioController.assign_single_role_to_user(db_session, usuario, rol)
         db_session.add(usuario)
+        db_session.flush()
         return usuario.get()
 
     @staticmethod

@@ -63,7 +63,7 @@
 
 1. Ejecuta las pruebas unitarias:
     ```sh
-    python -m unittest discover tests
+    python -m unittest discover tests -v
     ```
 
 ### Resultados de las Pruebas

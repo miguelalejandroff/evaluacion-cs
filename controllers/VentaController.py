@@ -32,6 +32,7 @@ class VentaController:
             vendedor_id=usuario_logueado.id
         )
         db_session.add(venta)
+        db_session.flush()
         return venta.get()
 
     @staticmethod

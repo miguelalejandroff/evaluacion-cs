@@ -16,6 +16,7 @@ class ProductoController:
             categoria=categoria
         )
         db_session.add(producto)
+        db_session.flush()
         return producto.get()
 
     @staticmethod
